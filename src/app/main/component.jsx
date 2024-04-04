@@ -129,55 +129,56 @@ export default function App() {
           </span>
         </div>
 
-        <div className="relative lg:gap-0 gap-5 py-5 flex justify-between w-full h-auto flex-wrap">
-          <div
-            className="lg:w-4/12 w-full h-[500px] transition-[0.7s] relative flex"
-            style={{
-              backgroundImage: `url(https://respace.su/local/templates/respace-en/assets/images/services-first.jpg)`,
-              backgroundSize: '100% 100%',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-            <div className="absolute opacity-0  hover:p-5  flex justify- hover:cursor-pointer items-end hover:opacity-100 transition-[1s] hover:transition-[1s] w-full h-full">
-              <p className="tracking-[1px] text-[#fafafa] uppercase">
+        <div className="relative lg:gap-0 gap-5 py-5 flex justify-between w-full h-[500px] flex-wrap">
+          {/* 1 */}
+
+          <div className="lg:w-4/12 w-full h-[500px] transition-all duration-700 ease-in-out relative overflow-hidden">
+            <div className="absolute bottom-0 left-0 p-3 text-white uppercase opacity-100 hover:opacity-100 transition-opacity duration-500 z-10">
+              <p className="tracking-[1px] hover:underline hover:cursor-pointer">
                 Камни для тела
               </p>
             </div>
+            <img
+              src="https://respace.su/local/templates/respace-en/assets/images/services-first.jpg"
+              alt="Камни для тела"
+              className="w-full h-full object-cover transition-transform duration-700 ease-in-out transform hover:scale-110"
+              style={{ position: 'relative', zIndex: '1' }}
+            />
           </div>
 
-          <div
-            className="lg:w-4/12 w-full h-[500px]  transition-[0.7s] relative flex"
-            style={{
-              backgroundImage: `url(https://respace.su/local/templates/respace-en/assets/images/services-first.jpg)`,
-              backgroundSize: '100% 100%',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-            <div className="absolute opacity-0  hover:p-5  flex justify- hover:cursor-pointer items-end hover:opacity-100 transition-[1s] hover:transition-[1s] w-full h-full">
-              <p className="tracking-[1px] text-[#fafafa] uppercase">
+          {/* 2 */}
+
+          <div className="lg:w-4/12 w-full h-[500px] transition-all duration-700 ease-in-out relative overflow-hidden">
+            <div className="absolute bottom-0 left-0 p-3 text-white uppercase opacity-100 hover:opacity-100 transition-opacity duration-500 z-10">
+              <p className="tracking-[1px] hover:underline hover:cursor-pointer">
                 Камни для тела
               </p>
             </div>
+            <img
+              src="https://respace.su/local/templates/respace-en/assets/images/services-first.jpg"
+              alt="Камни для тела"
+              className="w-full h-full object-cover transition-transform duration-700 ease-in-out transform hover:scale-110"
+              style={{ position: 'relative', zIndex: '1' }}
+            />
           </div>
 
-          <div
-            className="lg:w-4/12 w-full h-[500px] transition-[0.7s] relative flex  overflow-hidden"
-            style={{
-              backgroundImage: `url(https://respace.su/local/templates/respace-en/assets/images/services-first.jpg)`,
-              backgroundSize: '100% 100%',
-              backgroundRepeat: 'no-repeat',
-            }}
-          >
-            <div className="absolute opacity-0  hover:p-5  flex justify- hover:cursor-pointer items-end hover:opacity-100 transition-[1s] hover:transition-[1s] w-full h-full">
-              <p className="tracking-[1px] text-[#fafafa] uppercase">
+          {/* 3 */}
+
+          <div className="lg:w-4/12 w-full h-[500px] transition-all duration-700 ease-in-out relative overflow-hidden">
+            <div className="absolute bottom-0 left-0 p-3 text-white uppercase opacity-100 hover:opacity-100 transition-opacity duration-500 z-10">
+              <p className="tracking-[1px] hover:underline hover:cursor-pointer">
                 Камни для тела
               </p>
             </div>
+            <img
+              src="https://respace.su/local/templates/respace-en/assets/images/services-first.jpg"
+              alt="Камни для тела"
+              className="w-full h-full object-cover transition-transform duration-700 ease-in-out transform hover:scale-110"
+              style={{ position: 'relative', zIndex: '1' }}
+            />
           </div>
         </div>
       </div>
-
-      {/* <ModalService open={openModal} onClose={toggleModalService} /> */}
     </div>
   );
 }
